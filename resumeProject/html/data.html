@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="/resumeProject/css/data.css" />
+  </head>
+  <body>
+    <tbody id = "ts"></tbody>
+    <div class="main">
+      <header>
+        <input
+          type="search"
+          placeholder="Search for keywords to filter the result"
+          class="search"
+        />
+        <section class="buttons hidden">
+          <button class="btn-prev hidden">Previous</button>
+          <button class="btn-next hidden">Next</button>
+        </section>
+      </header>
+      <section class="applicantdata">
+        <section class="applicantinfo">
+          <h1 class="applicantname"></h1>
+          <p class="appliedfor"></p>
+          <section class="applicantimg">
+            <img src ="/resumeProject/image/user.png">
+          </section>
+        </section>
+        <section class="applicantdetails">
+          <aside class="skilldata">
+            <section class="personal-info">
+              <h2>Personal Information</h2>
+              <ul>
+                <li class="phone"></li>
+                <li class="email"></li>
+                <li class="profile"></li>
+              </ul>
+            </section>
+            <section class="technicalSkills">
+              <h2>Technical Skills</h2>
+              <ul></ul>
+            </section>
+            <section class="hobbies">
+              <h2>Hobbies</h2>
+              <ul></ul>
+            </section>
+          </aside>
+          <section class="expdata">
+            <section class="work">
+              <h2>Work Experience in previous company</h2>
+              <ul></ul>
+            </section>
+            <section class="projects">
+              <h2>Projects</h2>
+              <ul></ul>
+            </section>
+            <section class="education bulleted-list">
+              <h2>Education</h2>
+              <ul></ul>
+            </section>
+            <section class="internship bulleted-list">
+              <h2>Internship</h2>
+              <ul></ul>
+            </section>
+            <section class="achievements bulleted-list">
+              <h2>Achievements</h2>
+              <ul></ul>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="nodata hidden">
+        <section class="nodatabox">
+          <img src="/resumeProject/image/nodata.png" id="nodataimg" />
+          <p>No such results found</p>
+        </section>
+      </section>
+    </div>
+    <script src="/resumeProject/js/data.js"></script>
+  </body>
+</html>

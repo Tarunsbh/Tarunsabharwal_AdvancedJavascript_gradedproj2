@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/resumeProject/css/login.css"/>
+</head>
+
+<body>
+    <div class="box">
+        <input type="text" name="" placeholder="User Name" id="username">
+        <input type="password" name="" placeholder="password" id="password">
+        <input type="submit" value="Login" onclick="validated()">
+
+
+    </div>
+    <script src="/resumeProject/js/login.js"> </script>
+    <script type="text/javascript">
+        function preventback() {
+          window.history.forward();
+        }
+        setTimeout("preventback()", 0);
+        window.onunload = function () {
+          null;
+        };
+     </script>
+
+
+
+</body>
+
+</html>

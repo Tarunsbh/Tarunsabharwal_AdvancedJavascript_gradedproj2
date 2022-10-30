@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(204, 204, 204);
+}
+
+
+.box {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(240, 237, 60);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    padding: 14px 10px;
+    width: 220px;
+
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus{
+    width: 270px;
+
+}
+
+.box input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 205, 50);
+    cursor: pointer;
+
+
+}
+
+.box input[type="submit"]:hover {
+    background: rgb(155, 205, 50);
+}
